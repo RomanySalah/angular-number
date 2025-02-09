@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-# angular-number
 =======
 # NumberApp
 
