@@ -1,0 +1,18 @@
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .text-fonts{
+    font-family: 'Neo Sans Arabic', sans-serif;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  .pagination .page-link {
+    color: black;
+   
+    margin: 2px;
+  }
+   

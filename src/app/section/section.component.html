@@ -1,0 +1,49 @@
+<div class="container-fluid mt-4">
+    <table class="table text-center text-fonts">
+        <thead class="table-light">
+            <tr>
+                <th>المبلغ</th>
+                <th>الدقائق الدولية</th>
+                <th>الدقائق المحلية</th>
+                <th>المسؤول عن التعيين</th>
+                <th>تاريخ إلغاء التعيين</th>
+                <th>تاريخ التعيين</th>
+                <th>العميل</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of data">
+               
+                <td>{{ item.amount }}</td>
+                <td>{{ item.internationalMinutes }}</td>
+                <td>{{ item.localMinutes }}</td>
+                <td>{{ item.responsible }}</td>
+                <td>{{ item.cancelDate }}</td>
+                <td>{{ item.appointmentDate }}</td>
+                <td>{{ item.client }}</td>
+                  
+              </tr>
+        </tbody>
+      </table>
+   <div class="switch text-fonts">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav> 
+
+</div>
+  </div>
+  

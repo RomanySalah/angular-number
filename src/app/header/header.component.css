@@ -1,0 +1,25 @@
+
+
+.header-container {
+    background-color: #f49440; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: 'Neo Sans Arabic', sans-serif;
+    margin: 0;
+    font-size: 96px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .subtitle {
+    font-family: 'Neo Sans Arabic', sans-serif;
+    margin: 5px 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 18px;
+  }
+  
